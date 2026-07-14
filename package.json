@@ -1,0 +1,53 @@
+{
+  "name": "anylock",
+  "version": "0.1.0",
+  "description": "One zero-dependency parser turning twelve lockfile formats into a single normalized NDJSON schema — the lockfile front-end every security tool keeps rewriting, as a library and a CLI.",
+  "author": "JaydenCJ",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "anylock": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"tests/*.test.mjs\"",
+    "smoke": "bash scripts/smoke.sh"
+  },
+  "keywords": [
+    "lockfile",
+    "sbom",
+    "dependencies",
+    "purl",
+    "ndjson",
+    "supply-chain",
+    "parser"
+  ],
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaydenCJ/anylock.git"
+  },
+  "homepage": "https://github.com/JaydenCJ/anylock#readme",
+  "bugs": {
+    "url": "https://github.com/JaydenCJ/anylock/issues"
+  }
+}

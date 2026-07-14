@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies"
+    ],
+    "content-hash": "8a1f6c3f0d4b9e2b7c5a1d8e9f0a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a",
+    "packages": [
+        {
+            "name": "monolog/monolog",
+            "version": "3.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "4b18b21a5527a3d5ffdac2fd35d3ab25a9597654"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/4b18b21a5527a3d5ffdac2fd35d3ab25a9597654",
+                "reference": "4b18b21a5527a3d5ffdac2fd35d3ab25a9597654",
+                "shasum": "3a91b3c9a0f04d5db94e4d5b184843870d8f9c53"
+            },
+            "require": {
+                "php": ">=8.1",
+                "psr/log": "^2.0 || ^3.0"
+            },
+            "type": "library"
+        },
+        {
+            "name": "psr/log",
+            "version": "3.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe5ea303b0887d5caefd3d431c3e61ad47037001",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "type": "library"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "phpunit/phpunit",
+            "version": "11.1.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/aa1cbcb69a2f6f5b1c56b09aab0c8e6c6ca777cd",
+                "shasum": "b8d8f0bcd10cba8a5b18c66a3a4e9e5d3e9f0a13"
+            },
+            "require": {
+                "php": ">=8.2",
+                "ext-dom": "*",
+                "myclabs/deep-copy": "^1.11"
+            },
+            "type": "library"
+        }
+    ],
+    "plugin-api-version": "2.6.0"
+}

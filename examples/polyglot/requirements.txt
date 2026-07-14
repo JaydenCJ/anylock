@@ -1,0 +1,5 @@
+# pinned by pip-compile
+httpx==0.27.0 \
+    --hash=sha256:71d5465162c13681bff01ad59b2cc68dd838ea1f10e51574bac27103f00c91a5
+idna==3.7 \
+    --hash=sha256:82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0
