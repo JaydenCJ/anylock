@@ -2,7 +2,7 @@
   "name": "anylock",
   "version": "0.1.0",
   "description": "One zero-dependency parser turning twelve lockfile formats into a single normalized NDJSON schema — the lockfile front-end every security tool keeps rewriting, as a library and a CLI.",
-  "author": "JaydenCJ",
+  "author": "JaydenCJ <aisingioro.kiyon@gmail.com>",
   "license": "MIT",
   "type": "module",
   "bin": {
